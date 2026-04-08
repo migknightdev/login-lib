@@ -1,4 +1,4 @@
-import { useLogin } from './useLogin';
+import { useLogin } from './core/useLogin';
 
 function App() {
   // O dev decide como processar os dados (ex: mandar pra uma API)
