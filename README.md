@@ -1,21 +1,23 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-# Warnings
-Attention this lib and ONLY for TESTING NOT recommended TO USE in LARGE Projects it is recommended to use larger and more reliable libraries like Auth0 React SDK which offers custom hooks and manages tokens and renewal automatically, USE responsibly
+# 🔐 Login-Lib (Headless React Hook)
 
 [![Syscore](https://img.shields.io/badge/MADE_BY-SYSCORE-black?style=flat-square&logo=visual-studio-code&logoColor=blue)](https://github.com/migknightdev)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+
+A lightweight and functional library to manage login form logic in React. This library is **headless**, meaning it provides no UI styles—giving you total freedom to build your own interface! ^^
+
+---
+
+## ⚠️ Important Warnings (Read before use)
+
+> [!CAUTION]
+> **THIS LIBRARY IS FOR TESTING AND EDUCATIONAL PURPOSES ONLY.**
+> It is NOT recommended for large-scale or production projects. For real-world applications, please use robust and established solutions like **Auth0 React SDK**, which handles tokens, security, and session renewal automatically. **Use responsibly.** --
+
+---
+
+## 🚀 Installation
+
+You can install this library directly from GitHub:
+
+```bash
+npm install github:migknightdev/login-lib
