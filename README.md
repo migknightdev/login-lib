@@ -3,7 +3,7 @@
 [![Syscore](https://img.shields.io/badge/MADE_BY-SYSCORE-black?style=flat-square&logo=visual-studio-code&logoColor=blue)](https://github.com/migknightdev)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
-A lightweight and functional library to manage login form logic in React. This library is **headless**, meaning it provides no UI styles—giving you total freedom to build your own interface! ^^
+A lightweight and functional library to manage login form logic in React. This library is **headless**, meaning it provides no UI styles—giving you total freedom to build your own interface!
 
 ---
 
