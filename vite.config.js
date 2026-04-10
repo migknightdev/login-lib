@@ -6,12 +6,12 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/index.js'), // Ponto de entrada da lib
+      entry: resolve(__dirname, 'src/index.js'),
       name: 'LoginLib',
       fileName: 'login-lib',
     },
     rollupOptions: {
-      external: ['react', 'react-dom'], // Não inclui o React no arquivo final
+      external: ['react', 'react-dom'],
       output: {
         globals: {
           react: 'React',
